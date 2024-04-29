@@ -448,8 +448,13 @@ header .navbar ul li a:hover {
     }
   }
 }
-
 .contact {
   color: white;
-  font-size: 19px;
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  .contact {
+    color: white;
+    font-size: 14px;
+  }
 }
