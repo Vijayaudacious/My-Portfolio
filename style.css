@@ -455,6 +455,6 @@ header .navbar ul li a:hover {
 @media (max-width: 768px) {
   .contact {
     color: white;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
