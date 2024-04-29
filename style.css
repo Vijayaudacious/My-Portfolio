@@ -311,7 +311,7 @@ header .navbar ul li a:hover {
     width: 65%;
   }
 }
- 
+
 .projects .box-container {
   display: flex;
   align-items: center;
@@ -447,4 +447,9 @@ header .navbar ul li a:hover {
       width: 100%;
     }
   }
+}
+
+.contact {
+  color: white;
+  font-size: 30px;
 }
