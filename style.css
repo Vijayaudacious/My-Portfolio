@@ -196,6 +196,7 @@ header .navbar ul li a:hover {
   text-align: center;
   padding: 2rem;
   margin: 2rem;
+  border-radius: 10px;
 }
 .about .row .counter .box span {
   font-size: 4rem;
