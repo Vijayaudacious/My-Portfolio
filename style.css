@@ -459,3 +459,89 @@ header .navbar ul li a:hover {
     font-size: 12px;
   }
 }
+
+.heading {
+  text-align: center;
+  color: #ecf0f1;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.heading span {
+  color: #ff79c6;
+}
+
+.webdev {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.webdev li {
+  margin: 15px;
+  width: 275px;
+  height: 182px;
+  text-align: center;
+  background-color: #274f85;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.webdev li:hover {
+  transform: scale(1.1);
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #ff79c6;
+  margin-bottom: 10px;
+}
+
+.bar {
+  background-color: #95a5a6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar span {
+  display: block;
+  height: 10px;
+  background-color: #34495e;
+}
+
+.bar .html {
+  width: 90%;
+}
+.bar .css {
+  width: 80%;
+}
+.bar .js {
+  width: 85%;
+}
+.bar .bootstrap {
+  width: 75%;
+}
+.bar .react {
+  width: 70%;
+}
+.bar .antdesign {
+  width: 60%;
+}
+h6.excellenceText {
+  position: relative;
+  top: 25px;
+}
+.fa-html5:before {
+  content: "\f13b";
+  position: relative;
+  bottom: 16px;
+}
