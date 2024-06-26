@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- META TAG FOR SEO -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio of Vijay Saratkar showcasing web development projects, design skills, and professional achievements."
+      content="Explore the professional portfolio of Vijay Saratkar, a skilled web developer and designer with extensive experience in crafting stunning websites."
     />
     <meta
       name="keywords"
-      content="Vijay Saratkar, Vijay Portfolio, web developer, web designer, professional portfolio"
+      content="Vijay Saratkar, Web Developer, Portfolio, Web Design, Frontend Developer"
     />
     <meta name="author" content="Vijay Saratkar" />
+    <meta
+      property="og:title"
+      content="Vijay Saratkar - Web Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Professional portfolio of Vijay Saratkar, showcasing web development projects and design skills."
+    />
+    <meta property="og:image" content="link-to-your-image.jpg" />
+    <meta
+      property="og:url"
+      content="https://vijayaudacious.github.io/My-Portfolio/"
+    />
 
     <!-- Favicon -->
     <link
@@ -37,12 +51,28 @@
     ></script>
 
     <!-- Title -->
-    <title>Vijay - Developer/SEO</title>
+    <title>Vijay Saratkar | Web Developer Portfolio</title>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Vijay Saratkar",
+        "jobTitle": "Web Developer",
+        "url": "https://vijayaudacious.github.io/My-Portfolio/",
+        "sameAs": [
+          "https://www.facebook.com/vijay.saratkat/",
+          "https://in.linkedin.com/in/vijay-saratkar-a0366624b",
+          "https://www.instagram.com/mr_saratkar_ji_09_group/"
+        ]
+      }
+    </script>
   </head>
   <body>
     <header>
       <div class="main">
-        <img src="my-image.jpeg" alt="Vijay Saratkar" />
+        <img src="my-image.jpeg" alt="Vijay Saratkar - Web Developer" />
         <h3 class="name">Vijay Saratkar</h3>
         <p class="post">Web Developer/Web Designer</p>
       </div>
@@ -57,6 +87,7 @@
     </header>
     <i class="fa fa-bars" id="menu"></i>
 
+    <h1>Vijay Saratkar - Experienced Web Developer and Designer</h1>
     <section class="home" id="home">
       <h3>HEY THERE!</h3>
       <h1>I'M <span>Vijay Saratkar</span></h1>
@@ -232,6 +263,14 @@
               />
             </div>
             <div class="form-group">
+              <input
+                type="number"
+                name="phoneNumber"
+                placeholder="Your Phone Name"
+                required
+              />
+            </div>
+            <div class="form-group">
               <input type="text" name="message" placeholder="Your Message" />
             </div>
             <button type="submit">Submit</button>
@@ -296,7 +335,6 @@
                 alert("There was a problem with the form submission.");
               }
             })
-
             .catch((error) => {
               console.error("Error:", error);
               alert("There was a problem with the form submission.");
